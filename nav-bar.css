@@ -1,0 +1,79 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: gray;
+    margin:0px ;
+    font-family: sans-serif;
+}
+ul{
+    background-color: lightgray;
+    list-style: none;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 0px 0px 50px 50px;
+    border: 3px solid lightgray;
+    box-shadow: 0 0 10px rgb(57, 57, 57);
+}
+li{
+    display: inline-block;
+}
+li a{
+    display: inline-block;
+    text-decoration: none;
+    color: gray;
+    font-size: 25px;
+}
+#a1{
+    padding:25px 45px;
+}
+#a1:hover{
+    background-color: grey;
+    color:lightgrey;
+    border-radius: 2px 2px 2px 50px;
+}
+#a2,#a3{
+    padding:25px 45px;
+}
+#a2:hover,#a3:hover{
+    background-color: grey;
+    color:lightgrey;
+    border-radius:2px;
+}
+#a4{
+    padding:25px 45px;
+}
+#a4:hover{
+    background-color: grey;
+    color:lightgrey;
+    border-radius:2px 2px 50px 2px;
+}
+.des{
+    background-color:lightgray;
+    color: rgb(76, 75, 75);
+    font-family: sans-serif;
+    margin: 10px 15px;
+    text-align: center;
+    box-shadow: 0 0 10px rgb(63, 63, 63);
+}
+.des p{
+    margin: 0px;
+    padding: 10px;
+}
+h2{
+    margin: 10px auto;
+    padding: 10px;
+    width: 170px;
+    border-radius: 15px;
+    border: 3px solid gray;
+}
+#d1{
+    border-radius: 20px 20px 5px 5px;
+}
+#d2,#d3{
+    border-radius: 5px;
+}
+#d4{
+    border-radius: 5px 5px 20px 20px;
+}
